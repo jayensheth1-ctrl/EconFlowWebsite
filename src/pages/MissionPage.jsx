@@ -1,4 +1,3 @@
-const db = globalThis.__B44_DB__ || { auth:{ isAuthenticated: async()=>false, me: async()=>null }, entities:new Proxy({}, { get:()=>({ filter:async()=>[], get:async()=>null, create:async()=>({}), update:async()=>({}), delete:async()=>({}) }) }), integrations:{ Core:{ UploadFile:async()=>({ file_url:'' }) } } };
 
 import React from 'react';
 import { motion } from 'framer-motion';
@@ -56,28 +55,10 @@ export default function MissionPage() {
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-display font-bold text-white leading-tight">
               Bridging the <span className="gradient-text-purple">Financial Literacy</span> Gap
             </h1>
-            <div className="mt-8 glass-card rounded-2xl px-6 py-4 max-w-2xl mx-auto border border-purple-500/20">
-              <p className="text-sm text-slate-300 leading-relaxed">
-                <span className="text-purple-300 font-semibold">Note:</span> Each partner receives their own personalized EconFlow version with a custom domain — leaderboards are scoped to each organization's community, keeping competition meaningful and local. Our overall impact spans all deployments combined.
-              </p>
-            </div>
+            
           </motion.div>
 
-          {/* Mission image */}
-          <motion.div
-            initial={{ opacity: 0, scale: 0.97 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.8, delay: 0.2 }}
-            className="relative rounded-3xl overflow-hidden mb-16 max-w-3xl mx-auto">
-            
-            <img
-              src={MISSION_IMAGE}
-              alt="Light refracting through crystal"
-              className="w-full h-52 sm:h-72 object-cover opacity-60" />
-            
-            <div className="absolute inset-0 bg-gradient-to-t from-[#050505] via-[#050505]/50 to-transparent" />
-          </motion.div>
-
+     
           {/* Mission statement */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}

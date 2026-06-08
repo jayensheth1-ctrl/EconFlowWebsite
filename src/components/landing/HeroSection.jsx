@@ -1,4 +1,3 @@
-const db = globalThis.__B44_DB__ || { auth:{ isAuthenticated: async()=>false, me: async()=>null }, entities:new Proxy({}, { get:()=>({ filter:async()=>[], get:async()=>null, create:async()=>({}), update:async()=>({}), delete:async()=>({}) }) }), integrations:{ Core:{ UploadFile:async()=>({ file_url:'' }) } } };
 
 import React from 'react';
 import { motion } from 'framer-motion';
@@ -107,7 +106,7 @@ export default function HeroSection({ heroImage }) {
           <div className="absolute inset-0 bg-gradient-to-br from-purple-600/20 via-transparent to-green-500/10 rounded-3xl blur-3xl" />
           <div className="relative w-full max-w-md lg:max-w-lg aspect-square">
             <img
-              src="https://media.db.com/images/public/6a2382d47f6f3ef5ee2d09b4/aa1bb3dfb_image2.png"
+              src="/logo.png"
               alt="EconFlow - Gamified Financial Literacy"
               className="w-full h-full object-cover rounded-3xl" />
             

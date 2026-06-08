@@ -1,4 +1,3 @@
-const db = globalThis.__B44_DB__ || { auth:{ isAuthenticated: async()=>false, me: async()=>null }, entities:new Proxy({}, { get:()=>({ filter:async()=>[], get:async()=>null, create:async()=>({}), update:async()=>({}), delete:async()=>({}) }) }), integrations:{ Core:{ UploadFile:async()=>({ file_url:'' }) } } };
 
 import React, { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
@@ -43,7 +42,7 @@ export default function Navbar() {
         <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
           <Link to="/" className="flex items-center">
             <img
-              src="https://media.db.com/images/public/6a2382d47f6f3ef5ee2d09b4/963a0130e_image1.jpg"
+              src="/logo.png"
               alt="EconFlow Logo"
               className="h-10 w-auto object-contain rounded-lg" />
             
