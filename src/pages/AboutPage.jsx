@@ -54,7 +54,7 @@ export default function AboutPage() {
                 Why <span className="gradient-text-mixed">EconFlow</span> Exists
               </h2>
               <p className="text-slate-400 leading-relaxed mb-4">
-                Schools rarely teach students how to file taxes, manage a credit card, or invest for retirement. EconFlow was built to close that gap. We take the topics that schools overlook and make them genuinely exciting through games, simulations, and challenges.
+                Schools rarely teach students how to file taxes, manage a credit card, or invest in the stock market. EconFlow was built to close that gap. We take the topics that schools overlook and make them genuinely exciting through games, simulations, and challenges.
               </p>
               <p className="text-slate-400 leading-relaxed">
                 Think of it as Duolingo for finance. Short lessons, instant feedback, real-world context, and a progression system that keeps you coming back. Every module is grounded in real financial concepts that students will face in the real world.
@@ -69,7 +69,7 @@ export default function AboutPage() {
               The <span className="gradient-text-purple">Platform</span>
             </h2>
             <p className="mt-3 text-slate-400 max-w-2xl mx-auto text-sm leading-relaxed">
-              EconFlow is far more than a lesson library. It is a fully gamified, personalized financial literacy experience built to keep students coming back. We tailor lessons and platform features for each partner based on their curriculum and educational goals — and offer separately versioned deployments so every partner gets an EconFlow that feels built specifically for their students.
+              EconFlow is a fully gamified, personalized financial literacy experience built to keep students coming back. We tailor lessons and platform features for each partner based on their curriculum and educational goals, and offer separately versioned deployments so every partner gets an EconFlow that is built specifically for their students.
             </p>
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">

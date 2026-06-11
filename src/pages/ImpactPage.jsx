@@ -7,7 +7,7 @@ const stats = [
 { icon: Globe, value: 50, suffix: '+', label: 'Countries with Access', color: 'purple' },
 { icon: Handshake, value: 9, suffix: '+', label: 'Global Partners', color: 'green' },
 { icon: Users, value: 500, suffix: '+', label: 'Students Impacted', color: 'purple' },
-{ icon: BookOpen, value: 25, suffix: '+', label: 'Lessons', color: 'green' }];
+{ icon: BookOpen, value: 42, suffix: '+', label: 'Lessons across all sites', color: 'green' }];
 
 function AnimatedCounter({ value, suffix, inView }) {
   const [count, setCount] = useState(0);

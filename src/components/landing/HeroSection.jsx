@@ -56,13 +56,21 @@ export default function HeroSection({ heroImage }) {
             className="mt-8 flex flex-wrap gap-4">
             
             <a
-              href="https://play.econflow.org"
+              href="https://middle.econflow.org"
               target="_blank"
               rel="noopener noreferrer"
               className="group inline-flex items-center gap-2 px-7 py-3.5 rounded-full bg-gradient-to-r from-purple-600 to-purple-500 text-white font-semibold text-sm hover:from-purple-500 hover:to-purple-400 transition-all duration-300 hover:shadow-xl hover:shadow-purple-500/25">
-              
               <Play size={16} className="fill-current" />
-              Play for Free
+              Middle School
+              <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
+            </a>
+            <a
+              href="https://elementary.econflow.org"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group inline-flex items-center gap-2 px-7 py-3.5 rounded-full bg-gradient-to-r from-green-600 to-green-500 text-white font-semibold text-sm hover:from-green-500 hover:to-green-400 transition-all duration-300 hover:shadow-xl hover:shadow-green-500/25">
+              <Play size={16} className="fill-current" />
+              Elementary School
               <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
             </a>
             <Link

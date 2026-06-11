@@ -70,12 +70,17 @@ export default function Navbar() {
 
           <div className="flex items-center gap-3">
             <a
-              href="https://play.econflow.org"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hidden sm:inline-flex items-center gap-2 px-5 py-2 rounded-full bg-gradient-to-r from-purple-600 to-purple-500 text-white text-sm font-semibold hover:from-purple-500 hover:to-purple-400 transition-all duration-300 hover:shadow-lg hover:shadow-purple-500/25">Launch EconFlow
-
-            </a>
+              href="https://elementary.econflow.org"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="hidden sm:inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-green-600 to-green-500 text-white text-sm font-semibold hover:from-green-500 hover:to-green-400 transition-all duration-300 hover:shadow-lg hover:shadow-green-500/25">Launch Elementary School
+</a>
+<a
+  href="https://middle.econflow.org"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="hidden sm:inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-purple-600 to-purple-500 text-white text-sm font-semibold hover:from-purple-500 hover:to-purple-400 transition-all duration-300 hover:shadow-lg hover:shadow-purple-500/25">Launch Middle School
+</a>
             <button
               onClick={() => setMobileOpen(!mobileOpen)}
               className="lg:hidden p-2 text-white">
@@ -116,12 +121,18 @@ export default function Navbar() {
 
           })}
             <a
-            href="https://play.econflow.org"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="mt-6 px-8 py-3 rounded-full bg-gradient-to-r from-purple-600 to-purple-500 text-white font-semibold">
-            
-              Play Now
+            href="https://elementary.econflow.org"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-4 px-8 py-3 rounded-full bg-gradient-to-r from-green-600 to-green-500 text-white font-semibold">
+              Launch Elementary School
+            </a>
+            <a
+              href="https://middle.econflow.org"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-4 px-8 py-3 rounded-full bg-gradient-to-r from-purple-600 to-purple-500 text-white font-semibold">
+              Launch Middle School
             </a>
           </motion.div>
         }
