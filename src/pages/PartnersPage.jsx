@@ -34,6 +34,7 @@ const partnerCategories = [
       { name: 'EmpowerED Finances', desc: 'A mission-driven organization that has reached over 15,000 marginalized and neurodiverse youth through college-credit personal finance courses backed by deposit-matching savings funds.' },
       { name: 'Youth In-Vest', desc: 'A dynamic, youth-led digital movement that uses highly visual social content and interactive workshops to teach Gen Z the essentials of investing, budgeting, and building credit.' },
       { name: 'Wall Street Oasis (WSO)', desc: 'The world\'s largest finance career community with over 1 million members, providing crowdsourced industry data, forums, and elite financial modeling interview prep.' },
+      { name: 'Wall Street Oasis (WSO)', desc: 'The world\'s largest finance career community with over 1 million members, providing crowdsourced industry data, forums, and elite financial modeling interview prep.' },
     ],
   },
   {
