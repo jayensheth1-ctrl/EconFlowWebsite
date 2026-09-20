@@ -5,9 +5,9 @@ import { Globe, Users, Handshake, BookOpen } from 'lucide-react';
 
 const stats = [
 { icon: Globe, value: 50, suffix: '+', label: 'Countries with Access', color: 'purple' },
-{ icon: Handshake, value: 10, suffix: '+', label: 'Global Partners', color: 'green' },
-{ icon: Users, value: 550, suffix: '+', label: 'Students Impacted', color: 'purple' },
-{ icon: BookOpen, value: 62, suffix: '+', label: 'Lessons across all sites', color: 'green' }];
+{ icon: Handshake, value: 11, suffix: '+', label: 'Global Partners', color: 'green' },
+{ icon: Users, value: 600, suffix: '+', label: 'Students Impacted', color: 'purple' },
+{ icon: BookOpen, value: 86, suffix: '+', label: 'Lessons across all sites', color: 'green' }];
 
 function AnimatedCounter({ value, suffix, inView }) {
   const [count, setCount] = useState(0);

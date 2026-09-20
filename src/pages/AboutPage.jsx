@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import PageLayout from '../components/landing/PageLayout';
 const platformFeatures = [
-  { emoji: '📚', title: '25 Interactive Lessons', desc: 'Duolingo-style modules with multiple question formats and curated reading passages before each lesson.' },
+  { emoji: '📚', title: '86 Interactive Lessons', desc: 'Duolingo-style modules with multiple question formats and curated reading passages before each lesson.' },
   { emoji: '🔓', title: 'Progression System', desc: '10 lessons unlocked first, followed by 10 advanced lessons with new themes and stock market content.' },
   { emoji: '🏆', title: 'Competitive Leaderboards', desc: 'Driving healthy competition and sustained motivation among student users.' },
   { emoji: '📈', title: 'Stock Market Simulator', desc: 'Real-world market dynamics in a safe, gamified learning environment.' },

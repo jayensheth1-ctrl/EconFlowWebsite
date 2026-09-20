@@ -54,7 +54,16 @@ export default function HeroSection({ heroImage }) {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.65 }}
             className="mt-8 flex flex-wrap gap-4">
-            
+
+            <a
+              href="https://high.econflow.org"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group inline-flex items-center gap-2 px-7 py-3.5 rounded-full bg-gradient-to-r from-purple-600 to-purple-500 text-white font-semibold text-sm hover:from-purple-500 hover:to-purple-400 transition-all duration-300 hover:shadow-xl hover:shadow-purple-500/25">
+              <Play size={16} className="fill-current" />
+              High School
+              <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
+            </a>
             <a
               href="https://middle.econflow.org"
               target="_blank"

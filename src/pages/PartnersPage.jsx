@@ -4,7 +4,7 @@ import PageLayout from '../components/landing/PageLayout';
 import { DollarSign, FlaskConical, ArrowRight, BookOpen, Unlock, Trophy, TrendingUp, Wallet, Shield, Gift, Smile, ShoppingBag, FileText, Accessibility, Zap, Target, Globe, Handshake } from 'lucide-react';
 
 const platformFeatures = [
-  { emoji: '📚', title: '25 Interactive Lessons', desc: 'Duolingo-style modules with multiple question formats and curated reading passages before each lesson.' },
+  { emoji: '📚', title: '86 Interactive Lessons', desc: 'Duolingo-style modules with multiple question formats and curated reading passages before each lesson.' },
   { emoji: '🔓', title: 'Progression System', desc: '10 lessons unlocked first, followed by 10 advanced lessons with new themes and stock market content.' },
   { emoji: '🏆', title: 'Competitive Leaderboards', desc: 'Driving healthy competition and sustained motivation among student users.' },
   { emoji: '📈', title: 'Stock Market Simulator', desc: 'Real-world market dynamics in a safe, gamified learning environment.' },
@@ -38,13 +38,14 @@ const partnerCategories = [
     ],
   },
   {
-    label: '🔬 Academic Research & Tech Platforms',
+    label: '🔬 Research & Academic Platforms',
     color: 'purple',
     partners: [
       { name: 'Synthica', desc: 'A massive open-access research and edtech platform operating across 96+ countries, providing AI data workbenches and hosting premier international student research competitions.' },
       { name: 'YRI Fellowship', desc: 'An intensive, highly selective mentorship program that pairs advanced students one-on-one with PhD mentors from top-tier universities to produce publication-grade scientific research.' },
       { name: 'Project Q2', desc: 'A structured, youth-led non-profit that utilizes collaborative digital platforms to guide student researchers step-by-step from initial hypothesis to final academic manuscript.' },
       { name: 'Venn (Student Org Connector)', desc: 'A specialized campus-tech directory designed to eliminate extracurricular fragmentation by streamlining club discovery, event tracking, and roster management for students.' },
+      { name: 'North American Tutors', desc: 'a premium online tutoring platform that connects students with current students and graduates from Ivy League and top-20 universities for personalized, one-on-one academic support and test preparation.' },
     ],
   },
 ];
