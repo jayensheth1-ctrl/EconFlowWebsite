@@ -85,7 +85,7 @@ export default function Navbar() {
   href="https://high.econflow.org"
   target="_blank"
   rel="noopener noreferrer"
-  className="hidden sm:inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-purple-600 to-purple-500 text-white text-sm font-semibold hover:from-purple-500 hover:to-purple-400 transition-all duration-300 hover:shadow-lg hover:shadow-purple-500/25">Launch High School
+  className="hidden sm:inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-blue-600 to-blue-500 text-white text-sm font-semibold hover:from-blue-500 hover:to-blue-400 transition-all duration-300 hover:shadow-lg hover:shadow-blue-500/25">Launch High School
 </a>
             <button
               onClick={() => setMobileOpen(!mobileOpen)}
@@ -144,7 +144,7 @@ export default function Navbar() {
               href="https://high.econflow.org"
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-4 px-8 py-3 rounded-full bg-gradient-to-r from-purple-600 to-purple-500 text-white font-semibold">
+              className="mt-4 px-8 py-3 rounded-full bg-gradient-to-r from-blue-600 to-blue-500 text-white font-semibold">
               Launch High School
             </a>
           </motion.div>

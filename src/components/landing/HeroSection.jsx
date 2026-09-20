@@ -59,7 +59,7 @@ export default function HeroSection({ heroImage }) {
               href="https://high.econflow.org"
               target="_blank"
               rel="noopener noreferrer"
-              className="group inline-flex items-center gap-2 px-7 py-3.5 rounded-full bg-gradient-to-r from-purple-600 to-purple-500 text-white font-semibold text-sm hover:from-purple-500 hover:to-purple-400 transition-all duration-300 hover:shadow-xl hover:shadow-purple-500/25">
+              className="group inline-flex items-center gap-2 px-7 py-3.5 rounded-full bg-gradient-to-r from-blue-600 to-blue-500 text-white font-semibold text-sm hover:from-blue-500 hover:to-blue-400 transition-all duration-300 hover:shadow-xl hover:shadow-blue-500/25">
               <Play size={16} className="fill-current" />
               High School
               <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
